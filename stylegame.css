@@ -1,0 +1,54 @@
+body{
+    background-image:url(backimg.jpeg);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: auto;
+    text-align: center;
+}
+h1{
+    font-size: 50px;
+    font-weight: bold;
+    color: blanchedalmond;
+    
+}
+.scissorbtn{
+    height: 50px;
+    background-color: transparent;
+    border: 3px solid white;
+    height: 100px;
+    width: 100px;
+    cursor: pointer;
+}
+.paperbtn{
+    height: 50px;
+    background-color: transparent;
+    border: 3px solid white;
+    height: 100px;
+    width: 100px;
+    cursor: pointer;
+}
+
+.rockbtn{
+    height: 50px;
+    background-color: transparent;
+    border: 3px solid white;
+    height: 100px;
+    width: 100px;
+    cursor: pointer;
+}
+.score-js{
+    font-size: 25px;
+}
+.moves-js{
+    font-size: 40px;
+    color: antiquewhite;
+}
+.result-js{
+    font-size: 25px;
+}
+.resetbtn{
+    height: 40px;
+    background-color: antiquewhite;
+    font-weight: bold;
+
+}

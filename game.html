@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RckPprScssr</title>
+    <script src="javascripgame"></script>
+    <link rel="stylesheet" href="stylegame.css">
+</head>
+<body>
+     <h1>Rock Paper Scissor</h1>
+    <button type="button" onclick="
+         playermove('Rock');
+        "><img src="images/rock.png" alt="" class="rockbtn"></button>
+
+
+     <button type="button" onclick=
+     " 
+          playermove('Paper');
+ 
+      "
+       ><img src="images/paper.png" class="paperbtn" ></button>
+
+
+    <button type="button" onclick="
+       
+       playermove('Scissor');
+      "><img src="images/scissor.png" alt="" class="scissorbtn"></button>
+
+      <p class="score-js"></p>
+      <p class="moves-js"></p>
+      <p class="result-js"></p>
+
+
+      <button type="button" class="resetbtn" onclick="
+           score.wins=0;
+           score.lose=0;
+           score.tie=0;
+           document.querySelector('.score-js').innerHTML=`wins:${score.wins}, loses:${score.lose}, Ties: ${score.tie}`;
+          ">Reset Button</button>
+
+    
+    
+</body>
+</html>
